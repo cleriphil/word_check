@@ -8,14 +8,3 @@ class String
     original_length.-(newer_length)
   end
 end
-
-#
-# original_array = ["nancy", "loves", "loves", "loves", "coffee"]
-#["nancy", "loves", "loves", "loves", "coffee"]
-#
-# irb(main):014:0> original_array
-# => ["nancy", "loves", "loves", "loves", "coffee"]
-
-# irb(main):016:0> original_string = original_array.join()
-# => "nancycoffee"
-# irb(main):017:0> orignal_string
