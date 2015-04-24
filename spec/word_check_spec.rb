@@ -5,7 +5,7 @@ require('word_check')
 #returns the frequency of the argument in the object when the frequency = 0.
 #returns the frequency of the argument in an object with capital letters.
 #returns the frequency of the argument in an object with punctuation.
-#returns the frequency of an argument with punctuation in the object.
+#returns the frequency of an argument with capital letters in the object.
 
 describe('String#word_check') do
   it("returns the frequency of the argument in the object when the frequency > 1.") do
@@ -20,7 +20,7 @@ describe('String#word_check') do
   it("returns the frequency of the argument in an object with punctuation") do
     expect("Nancy hates HATES! ~~hates~~ &Hates coffee.".word_check("hates")).to(eq(4))
   end
-  it("returns the frequency of an argument with punctuation in the object") do
+  it("returns the frequency of an argument with capital letters in the object") do
     expect("Nancy likes likes likes coffee".word_check("LIKes")).to(eq(3))
   end
 end
