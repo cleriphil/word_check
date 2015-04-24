@@ -5,7 +5,7 @@ I added a public folder with a CSS file but git would not let me commit it (afte
 So this repo "word_check" shows all my commits up until I had trouble with git.
 The repo "word_check_final" includes the work I did with CSS. 
 
-I also tried cloning my repo, making a new repo with my clone and then deploying it to Heroku. Hopefully when we review this, I can figure out how to deploy it to Heroku.)
+I also tried cloning my repo, making a new repo with my clone and then deploying it to Heroku. Heroku would open a browser window that said "An error occurred in the application and your page could not be served. Please try again in a few moments. If you are the application owner, check your logs for details." Hopefully when we review this, I can figure out how to deploy it to Heroku.)
 
 Word Check by Cleri Philiastides
 
